@@ -12,3 +12,8 @@ if not MONGODB_URI:
 
 # Example usage: Print the connection string (remove in production)
 print(f"MongoDB URI: {MONGODB_URI}")
+
+INSTALLED_APPS = [
+    # ...existing apps...
+    'octofit',
+]
